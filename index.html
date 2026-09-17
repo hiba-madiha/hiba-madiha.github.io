@@ -27,6 +27,7 @@
         <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
       </div>
     </nav>
+    <div class="scroll-progress" aria-hidden="true"></div>
   </header>
 
   <main>
@@ -35,7 +36,7 @@
       <div class="hero-inner">
         <div class="frame">
           <span class="monogram">HL</span>
-          <span class="tag-float">class: AI/CV · 0.99</span>
+          <span class="tag-float">class: AI/CV · <span class="conf">0.99</span></span>
         </div>
         <div>
           <p class="eyebrow reveal-init">Islamabad, Pakistan</p>
@@ -100,7 +101,7 @@
         surveillance and industrial inspection — proficient in Python-based AI development, modern deep
         learning frameworks, and deployment on embedded and cloud platforms.
       </p>
-      <ul class="focus-tags">
+      <ul class="focus-tags reveal-onscroll">
         <li>Object Detection</li>
         <li>Vision Transformers</li>
         <li>Edge AI Deployment</li>
@@ -267,11 +268,11 @@
         <h2>Publications</h2>
       </div>
       <ul class="pub-list">
-        <li>
+        <li class="reveal-onscroll">
           <p class="pub-title">Scale Invariant Tracking of Objects and Occlusion Detection in Challenging Thermal Infrared Sequences</p>
           <p class="pub-venue">IEEE INMIC 2023</p>
         </li>
-        <li>
+        <li class="reveal-onscroll">
           <p class="pub-title">ViT vs CNN: A Comparative Study of Wheat Disease Classification for Custom Data</p>
           <p class="pub-venue">IEEE FIT 2023</p>
         </li>
@@ -369,7 +370,7 @@
 
         <a class="bento-card bento-cta reveal-onscroll" href="https://github.com/hiba-madiha" target="_blank" rel="noopener">
           <span class="bento-label">Open source</span>
-          <h3>See the code →</h3>
+          <h3>See the code <span class="arrow">→</span></h3>
           <p>Repositories, experiments and deployment notes on GitHub.</p>
         </a>
       </div>
