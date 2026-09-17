@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Hiba Madiha Lashari</title>
+  <meta name="description" content="Portfolio of Hiba Madiha Lashari — Computer Vision / AI Engineer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chivo:wght@600;700;800&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#top">HL</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="top" class="hero container">
+      <div class="scan-line" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="frame">
+          <span class="monogram">HL</span>
+          <span class="tag-float">class: AI/CV · 0.99</span>
+        </div>
+        <div>
+          <p class="eyebrow reveal-init">Islamabad, Pakistan</p>
+          <h1 class="reveal-init" style="animation-delay:0.05s">Hiba Madiha Lashari</h1>
+          <p class="role reveal-init" style="animation-delay:0.1s">Computer Vision / AI Engineer</p>
+          <p class="tagline reveal-init" style="animation-delay:0.15s">
+            3+ years designing, training and deploying deep learning systems for real-time
+            detection, tracking and edge inference — from IC defect inspection to thermal
+            surveillance.
+          </p>
+          <div class="contact-row reveal-init" style="animation-delay:0.2s">
+            <a href="mailto:madihahiba49@gmail.com">madihahiba49@gmail.com</a>
+            <a href="tel:+923465322099">+92 346 5322099</a>
+          </div>
+          <div class="cta-row reveal-init" style="animation-delay:0.25s">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-outline" href="Hiba_Lashari_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+            <div class="social-row">
+              <a href="https://github.com/hiba-madiha" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+              </a>
+              <a href="https://linkedin.com/in/hiba-madiha-1b94111a2" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 16 16"><path d="M14.82 0H1.18C.53 0 0 .52 0 1.16v13.68C0 15.48.53 16 1.18 16h13.64c.65 0 1.18-.52 1.18-1.16V1.16C16 .52 15.47 0 14.82 0ZM4.75 13.6H2.38V6.14h2.37v7.46ZM3.56 5.09a1.37 1.37 0 1 1 0-2.74 1.37 1.37 0 0 1 0 2.74Zm10.05 8.51h-2.37V9.97c0-.87-.02-1.99-1.21-1.99-1.22 0-1.4.95-1.4 1.93v3.69H6.26V6.14h2.28v1.02h.03c.32-.6 1.09-1.23 2.24-1.23 2.39 0 2.83 1.57 2.83 3.62v4.05Z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat-tile reveal-onscroll">
+          <span class="num mono">3+</span>
+          <span class="label">Years in AI / CV engineering</span>
+        </div>
+        <div class="stat-tile reveal-onscroll">
+          <span class="num mono">2</span>
+          <span class="label">IEEE publications</span>
+        </div>
+        <div class="stat-tile reveal-onscroll">
+          <span class="num mono">99.2%</span>
+          <span class="label">ViT wheat-disease accuracy</span>
+        </div>
+        <div class="stat-tile reveal-onscroll">
+          <span class="num mono">+25%</span>
+          <span class="label">Tracking gain over baseline</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-head reveal-onscroll">
+        <p class="eyebrow">Profile</p>
+        <h2>About</h2>
+      </div>
+      <p class="lede">
+        Innovative Computer Vision and Artificial Intelligence Engineer with 3+ years of experience
+        designing, developing, testing and deploying deep learning models for real-time applications.
+        Strong expertise in object detection, image classification, tracking and edge AI optimization.
+        Experienced in translating research into production-ready AI systems for agriculture,
+        surveillance and industrial inspection — proficient in Python-based AI development, modern deep
+        learning frameworks, and deployment on embedded and cloud platforms.
+      </p>
+      <ul class="focus-tags">
+        <li>Object Detection</li>
+        <li>Vision Transformers</li>
+        <li>Edge AI Deployment</li>
+        <li>Model Optimization</li>
+        <li>Tracking &amp; Occlusion Handling</li>
+      </ul>
+    </section>
+
+    <section id="experience" class="section container">
+      <div class="section-head reveal-onscroll">
+        <p class="eyebrow">Career</p>
+        <h2>Experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal-onscroll">
+          <h3>Assistant Manager AI</h3>
+          <p class="timeline-org">Artificial Intelligence Technology Centre (AITeC), National Centre for Physics</p>
+          <p class="timeline-meta">Federal Government of Pakistan · 04.2023 – Present</p>
+          <ul>
+            <li>Designed and deployed computer vision systems for real-time detection and classification tasks.</li>
+            <li>Worked extensively on YOLO-based object detection, image classification and tracking pipelines.</li>
+            <li>Performed model optimization (pruning, quantization) for deployment on edge and embedded devices.</li>
+            <li>Developed AI solutions for IC defect detection, crop disease classification and facial emotion recognition.</li>
+            <li>Built end-to-end ML workflows: data acquisition, preprocessing, training, evaluation, deployment.</li>
+            <li>Supervised interns and contributed to national AI seminars and hands-on training programs.</li>
+          </ul>
+        </div>
+        <div class="timeline-item reveal-onscroll">
+          <h3>Research Assistant / Lab Engineer</h3>
+          <p class="timeline-org">Capital University of Science &amp; Technology (CUST), Islamabad</p>
+          <p class="timeline-meta">Full-time · 10.2020 – 06.2022</p>
+          <ul>
+            <li>Implemented scale-invariant object tracking algorithms for thermal infrared video sequences.</li>
+            <li>Addressed challenges such as occlusion, scale variation and low-contrast imagery.</li>
+            <li>Assisted in lab teaching for Introduction to Computing, Programming, Digital Logic Design and Electronics.</li>
+            <li>Mentored undergraduate students in computer vision and AI-based final year projects.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <div class="section-head reveal-onscroll">
+        <p class="eyebrow">Academic Record</p>
+        <h2>Education</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal-onscroll">
+          <h3>Master of Science — Electrical Engineering</h3>
+          <p class="timeline-org">Capital University of Science &amp; Technology (CUST), Islamabad</p>
+          <p class="timeline-meta">10.2020 – 06.2022 · CGPA 3.80 (1st Rank)</p>
+          <ul>
+            <li>Thesis: Scale-Invariant Tracking and Occlusion Detection in Thermal Infrared Sequences.</li>
+            <li>Dean's Honor Award.</li>
+          </ul>
+        </div>
+        <div class="timeline-item reveal-onscroll">
+          <h3>Bachelor of Science — Electrical Engineering</h3>
+          <p class="timeline-org">Capital University of Science &amp; Technology (CUST), Islamabad</p>
+          <p class="timeline-meta">08.2016 – 09.2020</p>
+          <ul>
+            <li>Final Year Project: Gesture-Controlled Gun Manoeuvring Using Vision and Servo Systems.</li>
+            <li>Dean's Honor Award.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-head reveal-onscroll">
+        <p class="eyebrow">Research Projects</p>
+        <h2>Selected Work</h2>
+      </div>
+      <div class="project-grid">
+        <article class="card reveal-onscroll">
+          <h3>Object Detection on Raspberry Pi for IoT Surveillance</h3>
+          <ul>
+            <li>Deployed YOLO-based models on Raspberry Pi for real-time video surveillance.</li>
+            <li>Optimized inference via pruning, quantization and resolution tuning.</li>
+            <li>Integrated RTSP/IP camera feeds streamed to a monitoring dashboard.</li>
+          </ul>
+          <div class="chip-row">
+            <span class="chip">YOLO</span>
+            <span class="chip">Raspberry Pi</span>
+            <span class="chip">Edge AI</span>
+          </div>
+        </article>
+        <article class="card reveal-onscroll">
+          <h3>IC Defect Detection (YOLOv8)</h3>
+          <ul>
+            <li>Built an automated inspection system for microchip surface defect detection.</li>
+            <li>Achieved high precision detecting minor defects for industrial quality assurance.</li>
+          </ul>
+          <div class="chip-row">
+            <span class="chip">YOLOv8</span>
+            <span class="chip">Industrial Inspection</span>
+          </div>
+        </article>
+        <article class="card reveal-onscroll">
+          <h3>Wheat Disease Classification — ViT vs CNN</h3>
+          <ul>
+            <li>Comparative analysis between Vision Transformers (ViT-B32) and CNNs.</li>
+            <li>Achieved 99.2% accuracy with ViT, outperforming VGG-19.</li>
+          </ul>
+          <div class="chip-row">
+            <span class="chip">ViT-B32</span>
+            <span class="chip">CNN</span>
+            <span class="chip">Agriculture</span>
+          </div>
+        </article>
+        <article class="card reveal-onscroll">
+          <h3>Scale-Invariant Tracking in Thermal IR</h3>
+          <ul>
+            <li>Robust tracking algorithm handling scale variation and occlusion.</li>
+            <li>Integrated Discriminative Correlation Filters with Kalman filtering.</li>
+            <li>Improved tracking performance ~25% over baseline methods.</li>
+          </ul>
+          <div class="chip-row">
+            <span class="chip">DCF</span>
+            <span class="chip">Kalman Filter</span>
+            <span class="chip">Thermal IR</span>
+          </div>
+        </article>
+      </div>
+      <p class="section-note">→ full repositories at <a href="https://github.com/hiba-madiha" target="_blank" rel="noopener">github.com/hiba-madiha</a></p>
+    </section>
+
+    <section id="opensource" class="section container">
+      <div class="section-head reveal-onscroll">
+        <p class="eyebrow">GitHub</p>
+        <h2>Open Source</h2>
+      </div>
+      <div class="repo-grid">
+        <a class="repo-card reveal-onscroll" href="https://github.com/hiba-madiha/yolo" target="_blank" rel="noopener">
+          <div class="repo-top">
+            <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+            <span class="repo-name">yolo</span>
+          </div>
+          <p>YOLOv5 fork with deployment support for PyTorch, ONNX, CoreML and TFLite.</p>
+          <span class="repo-lang"><i></i>Python</span>
+        </a>
+        <a class="repo-card reveal-onscroll" href="https://github.com/hiba-madiha/Image_enhancement" target="_blank" rel="noopener">
+          <div class="repo-top">
+            <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+            <span class="repo-name">Image_enhancement</span>
+          </div>
+          <p>Classical low-light image enhancement techniques implemented with OpenCV.</p>
+          <span class="repo-lang"><i></i>Python</span>
+        </a>
+        <a class="repo-card reveal-onscroll" href="https://github.com/hiba-madiha/Streamlit-based-Town-Dashboard" target="_blank" rel="noopener">
+          <div class="repo-top">
+            <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+            <span class="repo-name">Streamlit-based-Town-Dashboard</span>
+          </div>
+          <p>Interactive Streamlit dashboard for town-level data visualization.</p>
+          <span class="repo-lang"><i></i>Python</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="publications" class="section container">
+      <div class="section-head reveal-onscroll">
+        <p class="eyebrow">Research Publications</p>
+        <h2>Publications</h2>
+      </div>
+      <ul class="pub-list">
+        <li>
+          <p class="pub-title">Scale Invariant Tracking of Objects and Occlusion Detection in Challenging Thermal Infrared Sequences</p>
+          <p class="pub-venue">IEEE INMIC 2023</p>
+        </li>
+        <li>
+          <p class="pub-title">ViT vs CNN: A Comparative Study of Wheat Disease Classification for Custom Data</p>
+          <p class="pub-venue">IEEE FIT 2023</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-head reveal-onscroll">
+        <p class="eyebrow">Toolkit</p>
+        <h2>Skills</h2>
+      </div>
+      <div class="bento">
+        <article class="bento-card bento-feature reveal-onscroll">
+          <span class="bento-label">Core domain</span>
+          <h3>AI &amp; Computer Vision</h3>
+          <p>The work I lead with: detection and classification pipelines trained, optimized and shipped to real hardware.</p>
+          <div class="heat-chips">
+            <span class="heat-chip">Computer Vision</span>
+            <span class="heat-chip">Object Detection</span>
+            <span class="heat-chip">Image Classification</span>
+            <span class="heat-chip">Vision Transformers</span>
+            <span class="heat-chip">Image Processing</span>
+            <span class="heat-chip">Model Optimization</span>
+            <span class="heat-chip">Edge AI Deployment</span>
+            <span class="heat-chip">Tracking &amp; Occlusion</span>
+          </div>
+        </article>
+
+        <article class="bento-card reveal-onscroll">
+          <span class="bento-label">Languages</span>
+          <h3>Programming</h3>
+          <div class="heat-chips">
+            <span class="heat-chip">Python</span>
+            <span class="heat-chip">C++</span>
+            <span class="heat-chip">C</span>
+            <span class="heat-chip">MATLAB</span>
+            <span class="heat-chip">LaTeX</span>
+          </div>
+        </article>
+
+        <article class="bento-card reveal-onscroll">
+          <span class="bento-label">Training stack</span>
+          <h3>Frameworks &amp; Libraries</h3>
+          <div class="heat-chips">
+            <span class="heat-chip">PyTorch</span>
+            <span class="heat-chip">TensorFlow</span>
+            <span class="heat-chip">Keras</span>
+            <span class="heat-chip">OpenCV</span>
+            <span class="heat-chip">Hugging Face</span>
+            <span class="heat-chip">LangChain</span>
+            <span class="heat-chip">Scikit-learn</span>
+            <span class="heat-chip">NumPy</span>
+            <span class="heat-chip">Pandas</span>
+            <span class="heat-chip">Matplotlib</span>
+            <span class="heat-chip">Seaborn</span>
+          </div>
+        </article>
+
+        <article class="bento-card reveal-onscroll">
+          <span class="bento-label">Serving</span>
+          <h3>Deployment</h3>
+          <div class="heat-chips">
+            <span class="heat-chip">ONNX</span>
+            <span class="heat-chip">TensorRT</span>
+            <span class="heat-chip">OpenVINO</span>
+            <span class="heat-chip">FastAPI</span>
+            <span class="heat-chip">Streamlit</span>
+            <span class="heat-chip">Gradio</span>
+          </div>
+        </article>
+
+        <article class="bento-card reveal-onscroll">
+          <span class="bento-label">Workflow</span>
+          <h3>MLOps &amp; DevOps</h3>
+          <div class="heat-chips">
+            <span class="heat-chip">Docker</span>
+            <span class="heat-chip">Kubernetes</span>
+            <span class="heat-chip">Git</span>
+            <span class="heat-chip">GitLab</span>
+            <span class="heat-chip">MLflow</span>
+            <span class="heat-chip">Weights &amp; Biases</span>
+          </div>
+        </article>
+
+        <article class="bento-card reveal-onscroll">
+          <span class="bento-label">Targets</span>
+          <h3>Hardware</h3>
+          <div class="heat-chips">
+            <span class="heat-chip">NVIDIA Jetson</span>
+            <span class="heat-chip">Raspberry Pi</span>
+            <span class="heat-chip">GPUs</span>
+            <span class="heat-chip">CUDA</span>
+          </div>
+        </article>
+
+        <a class="bento-card bento-cta reveal-onscroll" href="https://github.com/hiba-madiha" target="_blank" rel="noopener">
+          <span class="bento-label">Open source</span>
+          <h3>See the code →</h3>
+          <p>Repositories, experiments and deployment notes on GitHub.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="more" class="section container">
+      <div class="two-col">
+        <div>
+          <div class="section-head reveal-onscroll">
+            <p class="eyebrow">Certifications &amp; Training</p>
+            <h2>Certifications</h2>
+          </div>
+          <ul class="plain-list">
+            <li>Advanced AI Fellowship — AITeC, NCP (ML, DL, Transformers, RL, GPU &amp; CUDA, Cloud AI)</li>
+            <li>Docker and Kubernetes Training — AITeC, NCP</li>
+            <li>Hadoop Training — AITeC, NCP</li>
+          </ul>
+        </div>
+        <div>
+          <div class="section-head reveal-onscroll">
+            <p class="eyebrow">Involvement</p>
+            <h2>Academic &amp; Professional</h2>
+          </div>
+          <ul class="plain-list">
+            <li>Instructor in Basic and Advanced AI training programs (ML, DL, Generative AI).</li>
+            <li>Organized and hosted National AI Seminars (NAIS) at AITeC-NCP.</li>
+            <li>Hosted ISPAD 2024 Conference at AITeC-NCP.</li>
+            <li>Mentored AI interns on applied research and development projects.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact-section">
+      <div class="section-head reveal-onscroll">
+        <p class="eyebrow">Get in Touch</p>
+        <h2>Contact</h2>
+      </div>
+      <p class="lede">Open to collaborations in computer vision, edge AI and applied research — reach out through any of the channels below.</p>
+      <div class="contact-grid">
+        <a class="contact-card reveal-onscroll" href="mailto:madihahiba49@gmail.com">
+          <svg viewBox="0 0 16 16"><path d="M1.5 3h13A1.5 1.5 0 0 1 16 4.5v7A1.5 1.5 0 0 1 14.5 13h-13A1.5 1.5 0 0 1 0 11.5v-7A1.5 1.5 0 0 1 1.5 3Zm.5 1.6v6.4h12V4.6L8 9 2 4.6Zm.7-.6L8 7.7l5.3-3.7H2.7Z"/></svg>
+          madihahiba49@gmail.com
+        </a>
+        <a class="contact-card reveal-onscroll" href="tel:+923465322099">
+          <svg viewBox="0 0 16 16"><path d="M3.65 1.1a1 1 0 0 1 1.07.24l1.8 1.9a1 1 0 0 1 .17 1.16L5.6 6.2c.68 1.5 1.9 2.72 3.4 3.4l1.8-1.1a1 1 0 0 1 1.16.17l1.9 1.8a1 1 0 0 1 .24 1.07l-.5 1.4a1 1 0 0 1-.94.66C6.9 13.6 2.4 9.1 2.3 3.34a1 1 0 0 1 .66-.94l1.4-.5Z"/></svg>
+          +92 346 5322099
+        </a>
+        <a class="contact-card reveal-onscroll" href="https://github.com/hiba-madiha" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+          github.com/hiba-madiha
+        </a>
+        <a class="contact-card reveal-onscroll" href="https://linkedin.com/in/hiba-madiha-1b94111a2" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><path d="M14.82 0H1.18C.53 0 0 .52 0 1.16v13.68C0 15.48.53 16 1.18 16h13.64c.65 0 1.18-.52 1.18-1.16V1.16C16 .52 15.47 0 14.82 0ZM4.75 13.6H2.38V6.14h2.37v7.46ZM3.56 5.09a1.37 1.37 0 1 1 0-2.74 1.37 1.37 0 0 1 0 2.74Zm10.05 8.51h-2.37V9.97c0-.87-.02-1.99-1.21-1.99-1.22 0-1.4.95-1.4 1.93v3.69H6.26V6.14h2.28v1.02h.03c.32-.6 1.09-1.23 2.24-1.23 2.39 0 2.83 1.57 2.83 3.62v4.05Z"/></svg>
+          linkedin.com/in/hiba-madiha
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Hiba Madiha Lashari — built and deployed on GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
