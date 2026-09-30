@@ -134,7 +134,7 @@
 
   // heat spot that follows the pointer across cards
   if (window.matchMedia('(hover: hover)').matches) {
-    document.querySelectorAll('.card, .repo-card, .bento-card, .contact-card').forEach(function (card) {
+    document.querySelectorAll('.card, .repo-card, .bento-card, .contact-card, .cert-card').forEach(function (card) {
       card.addEventListener('pointermove', function (e) {
         const rect = card.getBoundingClientRect();
         card.style.setProperty('--mx', (e.clientX - rect.left) + 'px');
